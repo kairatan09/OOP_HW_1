@@ -1,6 +1,6 @@
 package HW;
 
-public class Rectangle extends Figure {
+public class Rectangle extends Shape {
     private final double length;
     private final double width;
 
@@ -10,12 +10,12 @@ public class Rectangle extends Figure {
     }
 
     @Override
-    public Double calculateArea() {
+    public double calculateArea() {
         return length * width;
     }
 
     @Override
-    public Double calculatePerimeter() {
+    public double calculatePerimeter() {
         return length * 2 + width * 2;
     }
 }

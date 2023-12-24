@@ -2,9 +2,9 @@ package HW;
 
 public class Main {
     public static void main(String[] args) {
-        Figure circle = new Circle(1);
-        Figure rectangle = new Rectangle(2, 3);
-        Figure square = new Square(4);
+        Shape circle = new Circle(1);
+        Shape rectangle = new Rectangle(2, 3);
+        Shape square = new Square(4);
 
         System.out.println("Периметр круга равен - " + circle.calculatePerimeter());
         System.out.println("Площадь круга равен - " + circle.calculateArea());

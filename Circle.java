@@ -1,6 +1,6 @@
 package HW;
 
-public class Circle extends Figure {
+public class Circle extends Shape {
     private final double radius;
 
     public Circle(double radius) {
@@ -8,12 +8,12 @@ public class Circle extends Figure {
     }
 
     @Override
-    public Double calculateArea() {
+    public double calculateArea() {
         return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
-    public Double calculatePerimeter() {
+    public double calculatePerimeter() {
         return 2 * Math.PI * radius;
     }
 }

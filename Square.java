@@ -6,12 +6,12 @@ public class Square extends Rectangle{
     }
 
     @Override
-    public Double calculateArea() {
+    public double calculateArea() {
         return super.calculateArea();
     }
 
     @Override
-    public Double calculatePerimeter() {
+    public double calculatePerimeter() {
         return super.calculatePerimeter();
     }
 }
